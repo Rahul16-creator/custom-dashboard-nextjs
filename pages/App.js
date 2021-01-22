@@ -1,5 +1,7 @@
 import Sidebar from './sidebar.js';
 
+
+//this component will used to render the base component
 const App = ({children}) => {
     return (
       <div className="wrapper">

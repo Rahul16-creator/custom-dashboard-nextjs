@@ -3,25 +3,27 @@ import MainChart from '../components/MainChart'
 import RevenueChart from '../components/revenueChart';
 import YearsChart from '../components/YearsChart';
 
-const Base= ()=>{
-  
-    return(
-        <App>
-          <div className="App">
-          <MainChart />
+
+
+const Base = () => {
+
+  return (
+    <App>
+      <div className="App">
+        <MainChart />
+      </div>
+      <br />
+      <br />
+      <div className="mid">
+        <div className="card">
+          <RevenueChart />
         </div>
-        <br />
-        <br />
-        <div className="mid">
-          <div className="card">
-            <RevenueChart />
-          </div>
-          <div>
-            <YearsChart />
-          </div>
+        <div>
+          <YearsChart />
         </div>
-        </App>
-    )
+      </div>
+    </App>
+  )
 }
 
 export default Base;

@@ -1,6 +1,7 @@
 import React from 'react'
 import  Link  from 'next/link'
 
+//sideBar
 const Sidebar = () => {
     return (
         <div>

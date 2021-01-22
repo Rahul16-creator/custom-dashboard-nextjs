@@ -14,6 +14,7 @@ class MainChart extends Component {
     this.getChartData();
   }
 
+  //this will return all agriculture data
   dashboardPanelChartData(data) {
 
     let result_data = [];
@@ -32,8 +33,8 @@ class MainChart extends Component {
 
 
   }
-
   getChartData() {
+    //   //this will return http request data and add to state
     fetchData().then((response) => {
       const d = this.dashboardPanelChartData(response)
       this.setState({

@@ -1,5 +1,8 @@
+//backend url
 const API = "https://custom-react-dashboard-backend.herokuapp.com";
 
+
+//used to fetch data from backend
 const fetchData = () => {
 
     return fetch(`${API}/fetch_data`, {
