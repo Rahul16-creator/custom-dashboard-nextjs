@@ -1,5 +1,5 @@
 import React from 'react'
-import  Link  from 'next/link'
+import Link from 'next/link'
 
 //sideBar
 const Sidebar = () => {
@@ -8,9 +8,10 @@ const Sidebar = () => {
             <div className="sidenavbar">
                 <h2> sidebar </h2>
                 <ul>
-                    <li> <Link className="links" href="/"> Dashboard</Link></li>
-                </ul>   
+                    <li> <Link className="links" href="/">  Dashboard</Link></li>
+                </ul>
             </div>
+
         </div>
     )
 }

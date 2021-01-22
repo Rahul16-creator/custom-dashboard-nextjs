@@ -1,8 +1,13 @@
 import Base from './base';
-
-const Index=()=>{
+import Head from 'next/head'
+const Index = () => {
     return (
-        <div> <Base /> </div>
+        <div>
+            <Head>
+                <title> NextJs_Dashboard </title>
+            </Head>
+            <Base />
+        </div>
     )
 }
 
