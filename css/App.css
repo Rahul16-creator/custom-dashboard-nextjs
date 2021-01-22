@@ -1,4 +1,5 @@
 /*  base  */
+
 *{
   margin: 0;
   padding: 0;
@@ -13,18 +14,16 @@ body{
 .App {
   display: flex;
   flex-direction: column;
- justify-content: center;
- background-color: hsla(0, 0%, 0%, 0.904);
- color: wheat;
-
+  justify-content: center;
+  background-color: hsla(0, 0%, 0%, 0.904);
+  color: wheat;
+  border-bottom: 15px;
 }
 
 .App canvas{
   width: 90% !important;
   height: 300px !important;
 }
-
-
 
 
 .mid {
@@ -41,6 +40,8 @@ body{
 }
 
 
+
+
 /* -----          App      -------------- */
 
 .wrapper {
@@ -53,6 +54,8 @@ body{
   width: 98%;
   margin-left: 250px;
 } 
+
+
 
 
 /* SIDE BAR */
@@ -85,18 +88,18 @@ body{
 
 
 .sidenavbar ul li {
- height: 55px;
- width: 100%;
- color:white ;
- list-style-type: none;
- display: flex;
- flex-direction: row;
- margin: 0;
- justify-content: center;
- align-items: center;
- margin-bottom: 5px;
- cursor: pointer;
- font-size: 18px;
+  height: 55px;
+  width: 100%;
+  color:white ;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+  cursor: pointer;
+  font-size: 18px;
 }
 
 .sidenavbar ul li:hover {

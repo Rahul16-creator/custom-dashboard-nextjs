@@ -1,5 +1,7 @@
-import Base from './base';
-import Head from 'next/head'
+import Base from '../components/base';
+import Head from 'next/head';
+
+
 const Index = () => {
     return (
         <div>
@@ -11,4 +13,4 @@ const Index = () => {
     )
 }
 
-export default Index
+export default Index;
